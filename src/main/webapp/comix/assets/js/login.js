@@ -18,10 +18,10 @@ function process(){
 		if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
 			
 		     if(xmlHttp.responseText.replace("\n" , "") == "valid"){
-		    	 window.location.href = "/mangaawesome/comic/authenticate.jsp";
+		    	 window.location.href = "/mangaawesome/comix/authenticate.jsp";
 		     }else{
 		    	 var message = document.getElementById("message");
-		    	 message.innerHTML = "Wrong email or password";
+		    	 message.innerHTML = "Invalid email or password";
 		    	 message.style.color = "red";
 		     }
 		}
