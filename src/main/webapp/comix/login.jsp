@@ -8,7 +8,6 @@
 
 		<!-- Loading Flat UI -->
 		<link href="assets/ui/Flat-UI-master/dist/css/flat-ui.css" rel="stylesheet">
-		 <link href="assets/ui/Flat-UI-master/docs/assets/css/demo.css" rel="stylesheet">
 		 
 		<title>Login</title>
 	</head>
